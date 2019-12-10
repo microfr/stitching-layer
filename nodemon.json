@@ -1,0 +1,10 @@
+{
+    "ignore": [".next"],
+    "events": {
+      "start": "next build"
+    },
+    "watch": [
+        "apollo/",
+        "pages/"
+      ]
+  }

@@ -1,0 +1,42 @@
+{
+  "name": "@microfr/stitching-layer",
+  "version": "1.0.3",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "APP_VERSION=1.0.0 nodemon --inspect server.js",
+    "build": "next build",
+    "start:prod": "NODE_ENV=production node server.js"
+  },
+  "repository": "https://github.com/microfr/stitching-layer",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/react-hooks": "^3.1.3",
+    "@apollo/react-ssr": "^3.1.3",
+    "@microfr/credit-score": "^1.0.5",
+    "@microfr/header": "^1.0.1",
+    "@microfr/transactions": "^1.0.3",
+    "apollo-boost": "^0.4.4",
+    "apollo-cache-inmemory": "^1.6.3",
+    "apollo-client": "^2.6.4",
+    "apollo-link-http": "^1.5.16",
+    "apollo-server": "^2.9.13",
+    "apollo-server-express": "^2.9.13",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "graphql": "^14.5.8",
+    "graphql-tools": "^4.0.6",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^9.1.5",
+    "next-with-apollo": "^4.3.0",
+    "node-fetch": "^2.6.0",
+    "nodemon": "^2.0.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}
